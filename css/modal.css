@@ -1,0 +1,186 @@
+.modal, .modal1, .modal2{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(1,17,17, 0.2);
+}
+
+.modal__project{
+  margin: auto;
+  width: 1200px;
+  height: 775px;
+  display: flex;
+}
+
+.modal__content{
+  width: 425px;
+  background-color: white;
+}
+
+.modal__up{
+
+  width: 288px;
+  margin-left: 27px;
+  margin-right: 99px;
+  margin-top: 50px;
+}
+
+.modal__content h2{
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+
+.modal__content h3{
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.modal__content .span1{
+  font-size: 16px;
+  font-weight: bold;
+
+}
+
+.modal__content .span2{
+  font-size: 14px;
+  font-family: Courgette;
+
+}
+
+.modal__content p{
+  display: block;
+  line-height: 2;
+  font-weight: 200;
+  font-size: 12px;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+  padding: 0 40px;
+}
+
+.display__none{
+  display: none;
+}
+
+/* MODAL1 */
+
+.modal1__all{
+  padding-top: 35px;
+  background-color: white;
+  width: 1200px;
+  height: 1241px;
+  margin: 0 auto;
+}
+
+.modal1__flex1{
+  display: flex;
+  padding: 0 410px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.modal1 h2{
+  font-size: 45px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: : 0 auto 0;
+  text-align: center;
+}
+
+.modal1__flex2{
+  display: flex;
+
+}
+
+.column1{
+  padding-right: 45px;
+  text-align: right;
+
+  border-right: 1px black solid;
+  width: 50%;
+}
+
+.column2{
+  padding-left: 45px;
+  width: 50%;
+}
+
+.column1 h3, .column2 h3{
+
+  display: block;
+  margin: 0 0 31px;
+}
+
+.column1 p{
+  padding-left: 216px;
+}
+
+.column1 p, .column2 p{
+
+  width: 300px;
+  font-size: 12px;
+  font-size: light;
+  line-height: 1.5;
+}
+
+
+
+.modal1__year{
+  text-decoration: underline;
+  font-size: 14px;
+  display: block;
+  font-weight: bold;
+  margin-top: 38px;
+}
+
+.column1 h4, .column2 h4{
+  display: block;
+  margin: 12px 0 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.modal1__position{
+  font-family: Courgette;
+  font-size: 14px;
+}
+
+.modal1__flex3{
+  display:flex;
+}
+
+.column2{
+  padding-left: 45px;
+}
+
+.awards{
+  padding-left: 15px;
+}
+
+/* MODAL2 */
+.modal2__{
+
+  margin: 50px auto;
+  width: 900px;
+  height: 600px;
+  display: flex;
+
+  background-image: url(https://placehold.it/470x700);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.modal2__right{
+  width: 53.7%;
+}
+
+.modal2__talk{
+  width: 46.3%;
+
+}

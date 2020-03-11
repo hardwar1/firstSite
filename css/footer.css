@@ -1,0 +1,33 @@
+footer{
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.foot__text{
+  color: grey;
+}
+
+.foot__nav{
+
+}
+
+.foot__link{
+  color: grey;
+}
+
+.foot__link::after{
+  background-color: grey;
+}
+.foot__btn{
+  border:2px solid grey;
+  background-color: black;
+  color: grey;
+}
+.foot__btn:hover{
+  border-color: grey;
+  background-color: grey;
+  color: black;
+}

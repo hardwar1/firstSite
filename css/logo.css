@@ -1,0 +1,48 @@
+.main__intro{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../images/symbols.svg);
+  background-color: white;
+  background-position: 160px;
+  background-repeat: no-repeat;
+}
+
+.logo{
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.logo__text1{
+  font-size: 32px;
+  font-weight: 200;
+}
+
+.this_page_about{
+  font-size: 45px;
+  font-weight: 700;
+
+}
+
+.logo__text2{
+  font-size: 18px;
+  opacity: ,7;
+  font-weight: 300;
+
+}
+
+.intro__photo{
+
+}
+.social{
+  margin-top: 25px;
+}
+.social__link{
+
+  margin-right: 20px;
+}
+
+.logo__button{
+  margin-top: 38px;
+}

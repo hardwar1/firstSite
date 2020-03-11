@@ -1,0 +1,89 @@
+header{
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-weight: bold;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+
+.minilogo{
+  display: flex;
+  align-items: center;
+}
+
+.minilogo__label{
+  border-radius: 50%;
+  width: 57px;
+  height: 57px;
+  background-color: black;
+}
+
+.minilogo__{
+  display: block;
+  height: auto;
+}
+
+.minilogo__text{
+  margin-left: 7px;
+  font-size: 16px;
+  float: left;
+  padding-bottom: 0px;
+  height: auto;
+}
+
+.minilogo__subtext{
+  font-size: 12px;
+  font-weight: normal;
+  padding: 0px;
+  float: left;
+  opacity: .7;
+}
+
+.nav__link{
+  color: black;
+  text-transform: uppercase;
+  margin: 0 14px;
+  text-decoration: none;
+  position: relative;
+  font-size: 14px;
+  border-radius: 20px;
+}
+
+.nav__link:after{
+  content:"";
+  width:0;
+  height:2px;
+  background-color:#2b2a2c;
+  position:absolute;
+  bottom:-5px;
+  left:0;
+  z-index:1;
+  transition:width .2s linear
+}
+
+.nav__link:hover:not(.nav__link--btn):after{
+  width:100%
+}
+
+.here__me{
+  border: 2px solid black;
+  padding: 7px 25px;
+  font: inherit;
+  border-radius: 20px;
+  text-transform: uppercase;
+  transition: background-color .2s linear, color .2s linear;
+}
+
+
+.here__me:hover{
+  background-color: black;
+  color: white;
+}
+
+.here__me:focus{
+  outline: none;
+
+}
